@@ -1,7 +1,7 @@
 //you must have entry-> output, __dirname
 const path = require('path')
 module.exports = {
-    entry:'./src/playground/reducer-exp.js',
+    entry:'./src/app.js',
     output:{
         //create the path to the local file we are working in
         path: path.join(__dirname,'public'),
