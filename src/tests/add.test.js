@@ -6,12 +6,3 @@ test('should add two numbers', () => {
   expect(result).toBe(7);
 });
 
-test('should generate greeting from name', () => {
-  const result = generateGreeting('Mike');
-  expect(result).toBe('Hello Mike!');
-});
-
-test('should generate greeting for no name', () => {
-  const result = generateGreeting();
-  expect(result).toBe('Hello Anonymous!');
-});
